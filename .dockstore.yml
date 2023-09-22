@@ -1,0 +1,7 @@
+version: 0.1
+workflows:
+ - name: scrub_comparison_Illumina_PE
+   subclass: WDL
+   primaryDescriptorPath: /workflows/scrub_comparison_Illumina_PE.wdl
+   testParameterFiles:
+    - empty.json
